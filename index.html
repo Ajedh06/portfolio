@@ -1,0 +1,416 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ajedh Prakasan N V — Computer Science student, aspiring software developer and AI enthusiast.">
+  <meta name="theme-color" content="#0b0d12">
+  <title>Ajedh Prakasan N V | Developer Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#home" class="brand">AP<span>.</span></a>
+
+      <button class="menu-toggle" id="menuToggle"
+        aria-label="Open navigation" aria-expanded="false"
+        aria-controls="navLinks">☰</button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact" class="nav-cta">Let's Connect <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero container" id="home">
+      <div class="hero-copy reveal">
+        <div class="availability">
+          <span class="pulse"></span>
+          COMPUTER SCIENCE & ENGINEERING
+        </div>
+
+        <p class="overline">HELLO, I'M</p>
+        <h1>Ajedh Prakasan<br><span class="accent-text">N V.</span></h1>
+
+        <h2 class="hero-role">
+          Aspiring Developer <span class="role-divider">/</span>
+          <span id="typing">AI Enthusiast</span>
+        </h2>
+
+        <p class="hero-description">
+          I am a Computer Science and Engineering student interested in
+          software development, Artificial Intelligence, and building
+          technology that solves real-world problems. I believe in learning
+          by building, experimenting, and improving every day.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">
+            Explore Projects <span>↘</span>
+          </a>
+          <a class="button button-outline" href="#contact">
+            Get in Touch
+          </a>
+        </div>
+
+        <div class="hero-socials">
+          <a href="https://github.com/" target="_blank"
+             rel="noopener noreferrer" aria-label="GitHub profile">
+            GitHub ↗
+          </a>
+          <a href="https://www.linkedin.com/" target="_blank"
+             rel="noopener noreferrer" aria-label="LinkedIn profile">
+            LinkedIn ↗
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-side reveal">
+        <div class="portrait-frame">
+          <div class="portrait-placeholder">
+            <span class="portrait-initials">AP</span>
+            <span class="portrait-caption">BUILD. LEARN. REPEAT.</span>
+          </div>
+          <span class="frame-label">PORTFOLIO / 2026</span>
+        </div>
+
+        <div class="floating-note note-one">
+          <span class="note-icon">✳</span>
+          <div>
+            <strong>Always learning</strong>
+            <small>Growing through projects</small>
+          </div>
+        </div>
+
+        <div class="floating-note note-two">
+          <span class="note-icon">⌘</span>
+          <div>
+            <strong>Problem solver</strong>
+            <small>Code meets creativity</small>
+          </div>
+        </div>
+      </div>
+
+      <a class="scroll-indicator" href="#about">
+        <span class="scroll-line"></span> SCROLL TO EXPLORE
+      </a>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section container" id="about">
+      <div class="section-heading reveal">
+        <span class="section-index">01 / ABOUT</span>
+        <h2>A little about <span class="accent-text">me.</span></h2>
+        <p>My background, interests, and direction.</p>
+      </div>
+
+      <div class="about-grid">
+        <article class="about-copy reveal">
+          <p class="lead">
+            I am a CSE student who enjoys understanding how things work
+            and turning ideas into practical applications.
+          </p>
+          <p>
+            My journey in technology involves strengthening my programming
+            fundamentals, exploring web development, and learning about
+            intelligent systems. I enjoy working on project ideas that
+            connect technology with everyday problems.
+          </p>
+          <p>
+            I am particularly interested in Artificial Intelligence,
+            Generative AI, cloud technologies, and data engineering.
+            My goal is to develop strong technical foundations and become
+            a capable software professional through consistent practice.
+          </p>
+        </article>
+
+        <div class="about-details reveal">
+          <div class="detail-row">
+            <span class="detail-label">EDUCATION</span>
+            <span>BE — Computer Science & Engineering</span>
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">COLLEGE</span>
+            <span>Canara Engineering College</span>
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">INTERESTS</span>
+            <span>AI · Software · Cloud · Data</span>
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">CURRENT GOAL</span>
+            <span>Build projects and gain practical experience</span>
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">BASED IN</span>
+            <span>India</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-index">02 / SKILLS</span>
+          <h2>My technical <span class="accent-text">toolkit.</span></h2>
+          <p>Foundations I am developing and technologies I am exploring.</p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <div class="skill-top">
+              <span class="skill-number">01</span>
+              <span class="skill-symbol">&lt;/&gt;</span>
+            </div>
+            <h3>Programming</h3>
+            <p>Building a foundation in programming logic and problem-solving.</p>
+            <div class="skill-tags">
+              <span>C fundamentals</span>
+              <span>Java / JSP exposure</span>
+              <span>Python — learning</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-top">
+              <span class="skill-number">02</span>
+              <span class="skill-symbol">◫</span>
+            </div>
+            <h3>Web Development</h3>
+            <p>Creating web interfaces and learning how applications work.</p>
+            <div class="skill-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-top">
+              <span class="skill-number">03</span>
+              <span class="skill-symbol">✳</span>
+            </div>
+            <h3>Computer Science</h3>
+            <p>Developing essential concepts for software engineering.</p>
+            <div class="skill-tags">
+              <span>DSA</span>
+              <span>DBMS</span>
+              <span>SQL fundamentals</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-top">
+              <span class="skill-number">04</span>
+              <span class="skill-symbol">⌘</span>
+            </div>
+            <h3>Tools & Emerging Tech</h3>
+            <p>Exploring development tools and modern technology stacks.</p>
+            <div class="skill-tags">
+              <span>VS Code</span>
+              <span>Git / GitHub</span>
+              <span>Generative AI</span>
+              <span>Cloud concepts</span>
+            </div>
+          </article>
+        </div>
+
+        <p class="skills-note reveal">
+          Skills and interests are presented at a foundational or learning
+          level where applicable. Update this section as your experience grows.
+        </p>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section container" id="projects">
+      <div class="section-heading reveal">
+        <span class="section-index">03 / PROJECTS</span>
+        <h2>Ideas into <span class="accent-text">applications.</span></h2>
+        <p>Selected academic work and project concepts.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <div class="project-cover cover-one">
+            <span class="cover-number">01</span>
+            <span class="cover-art">01<span>.</span></span>
+            <span class="cover-label">CAMPUS TECHNOLOGY</span>
+          </div>
+          <div class="project-info">
+            <div class="project-meta">
+              <span>WEB APPLICATION</span>
+              <span class="status-label">PROJECT CONCEPT</span>
+            </div>
+            <h3>CampusLink</h3>
+            <p>
+              A campus connectivity platform designed to connect students
+              with trusted campus service providers through one platform.
+            </p>
+            <div class="project-tags">
+              <span>Frontend</span><span>Backend</span><span>Database</span>
+            </div>
+            <a class="project-link" href="#contact">
+              Discuss this project <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-cover cover-two">
+            <span class="cover-number">02</span>
+            <span class="cover-art">N<span>.</span></span>
+            <span class="cover-label">COLLEGE MANAGEMENT</span>
+          </div>
+          <div class="project-info">
+            <div class="project-meta">
+              <span>JAVA WEB PROJECT</span>
+              <span class="status-label">ACADEMIC PROJECT</span>
+            </div>
+            <h3>E-Notice Board</h3>
+            <p>
+              A web-based notice management application concept for
+              organizing announcements for students, teachers, and admins.
+            </p>
+            <div class="project-tags">
+              <span>Java</span><span>JSP</span><span>HTML / CSS</span>
+            </div>
+            <a class="project-link" href="#contact">
+              Discuss this project <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-cover cover-three">
+            <span class="cover-number">03</span>
+            <span class="cover-art">AI<span>.</span></span>
+            <span class="cover-label">INTELLIGENT SYSTEMS</span>
+          </div>
+          <div class="project-info">
+            <div class="project-meta">
+              <span>ARTIFICIAL INTELLIGENCE</span>
+              <span class="status-label">PROJECT CONCEPT</span>
+            </div>
+            <h3>AI Agent Control Tower</h3>
+            <p>
+              A proposed platform to monitor multiple AI agents, inspect
+              their tasks, and track execution and operational status.
+            </p>
+            <div class="project-tags">
+              <span>AI</span><span>LLMs</span><span>Monitoring</span>
+            </div>
+            <a class="project-link" href="#contact">
+              Discuss this project <span>↗</span>
+            </a>
+          </div>
+        </article>
+      </div>
+
+      <p class="project-disclaimer">
+        Replace project statuses with their actual development stage.
+        Add GitHub repositories and live demos once available.
+      </p>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section section-alt" id="education">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-index">04 / EDUCATION</span>
+          <h2>Learning is a <span class="accent-text">journey.</span></h2>
+          <p>My academic background and professional direction.</p>
+        </div>
+
+        <div class="education-card reveal">
+          <div class="education-marker">01</div>
+          <div class="education-content">
+            <span class="education-period">UNDERGRADUATE STUDIES</span>
+            <h3>Bachelor of Engineering</h3>
+            <h4>Computer Science and Engineering</h4>
+            <p>Canara Engineering College</p>
+            <p class="education-description">
+              Building knowledge in programming, data structures,
+              databases, software development, and emerging technologies.
+            </p>
+          </div>
+          <div class="education-badge">CSE</div>
+        </div>
+
+        <div class="career-block reveal">
+          <span class="section-index">LOOKING AHEAD</span>
+          <h3>Where I want to grow</h3>
+          <div class="career-tags">
+            <span>Software Development</span>
+            <span>AI & Generative AI</span>
+            <span>Cloud Engineering</span>
+            <span>Data Engineering</span>
+          </div>
+          <p>
+            My current career interests. I am working towards developing
+            the skills and practical experience needed for these fields.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section container" id="contact">
+      <div class="contact-panel reveal">
+        <span class="section-index">05 / CONTACT</span>
+        <h2>Have an idea?<br><span class="accent-text">Let's connect.</span></h2>
+        <p>
+          I'm interested in learning, building projects, and connecting
+          with people who enjoy solving problems with technology.
+        </p>
+
+        <div class="contact-actions">
+          <a class="button button-primary"
+             href="mailto:YOUR_EMAIL@example.com">
+            Send me an email ↗
+          </a>
+          <button class="button button-outline" id="copyEmail"
+             data-email="YOUR_EMAIL@example.com">
+            Copy email
+          </button>
+        </div>
+
+        <p class="contact-feedback" id="copyFeedback" aria-live="polite"></p>
+
+        <div class="contact-socials">
+          <a href="https://github.com/" target="_blank"
+             rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/" target="_blank"
+             rel="noopener noreferrer">LinkedIn ↗</a>
+          <a href="mailto:YOUR_EMAIL@example.com">Email ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <a class="brand" href="#home">AP<span>.</span></a>
+    <p>Designed and developed by Ajedh Prakasan N V.</p>
+    <p>© <span id="year"></span> All rights reserved.</p>
+  </footer>
+
+  <button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+</body>
+</html>
